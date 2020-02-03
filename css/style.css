@@ -67,6 +67,10 @@ p {
 ul {
     margin: 0;
     padding: 0;
+    font-size: 1em;
+    color: #8c9398;
+    line-height: 2em;
+    letter-spacing: 1px;
 }
 
 body img {
@@ -751,6 +755,7 @@ section#gallery {
 
 .gal-img img {
     padding: 6px;
+    min-height: 300px;
     background: #f0f0f1;
 }
 
@@ -1036,6 +1041,11 @@ input.email {
     background-color: #F4F4F4;
     border: none;
 }
+.news-grids{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .flickr-grid {
     float: left;
@@ -1191,9 +1201,17 @@ li.google a {
 
 li.linkedin a {
     color: #fff;
-    background: #0077b5;
+    background: #0076B5;
+}
+li.youtube a {
+    color: #fff;
+    background: #FF0000;
 }
 
+li.instagram a {
+    color: #fff;
+    background: #BA49FF;
+}
 ul.social_section_1info a:hover {
     opacity: 0.8;
 }
