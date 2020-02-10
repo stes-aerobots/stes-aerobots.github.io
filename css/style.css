@@ -56,7 +56,14 @@ h6 {
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
 }
+@font-face {
+  font-family:"xirod";
+  src: url("xirod.ttf") format("truetype");
+}
 
+h1{
+    font-family: 'xirodregular';
+}
 p {
     font-size: 1em;
     color: #8c9398;
