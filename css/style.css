@@ -615,7 +615,8 @@ ul.tic-info li {
 /* testimonials */
 .sponsors{
     /*background:#000;*/
-    background: #000000cf;
+    /*background: #000000cf;*/
+    background: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -630,6 +631,15 @@ ul.tic-info li {
 }
 .testimonials {
     background: url(../images/stock/4.jpg)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.about-testimonials {
+    background: url(../images/stock/1.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
