@@ -614,7 +614,7 @@ ul.tic-info li {
 /*-- //features --*/
 /* testimonials */
 .testimonials {
-        background: url(../images/banner1.jpg)no-repeat center;
+    background: url(../images/stock/4.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -642,6 +642,8 @@ ul.tic-info li {
     -ms-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+    height: 12rem;
+    width: 10rem;
 }
 p.text-li {
     color: #fff;
